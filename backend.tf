@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mydev-tf-state-bucket-project-terraform-batch-22"
+    bucket = "ankit102030"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "ankit-dynamodb"
   }
 }
